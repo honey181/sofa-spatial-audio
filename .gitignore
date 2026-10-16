@@ -1,0 +1,44 @@
+# Build outputs & binaries
+bin/
+build/
+build_all_objs/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# Audio renderings & logs
+*.wav
+*.log
+
+# Indexer and IDE caches
+.cache/
+.vscode/
+.vs/
+compile_commands.json
+
+# Upstream third-party precompiled libs
+libmysofa-src/build/
+libmysofa-src/windows/third-party/
+zlib-src/Makefile
+zlib-src/zconf.h
+
+# Windows proprietary binaries
+HrtfApo.dll
+HrtfDspCpu_orig.dll
+*original_msft*
+
+# Individualized / personal SOFA measurement files
+*Individualized*.sofa
+custom_individualized.sofa
+*.sofa.backup
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
